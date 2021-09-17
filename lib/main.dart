@@ -1,3 +1,4 @@
+import 'package:bwa_airplane_v2/views/pages/get_started_page.dart';
 import 'package:bwa_airplane_v2/views/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,8 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter BWA AirPlane - 2.0 Null Safety',
-      home: SplashPage(),
+      home: GetStartedPage(),
     );
   }
 }

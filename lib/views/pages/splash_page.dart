@@ -18,7 +18,8 @@ class SplashPage extends StatelessWidget {
           ),
           Text(
             "AIRPLANE",
-            style: tWhiteTextStyle.copyWith(fontSize: 32, letterSpacing: 10),
+            style: tWhiteTextStyle.copyWith(
+                fontWeight: medium, fontSize: 32, letterSpacing: 10),
           )
         ],
       )),
