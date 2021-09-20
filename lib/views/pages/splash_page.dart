@@ -10,11 +10,17 @@ class SplashPage extends StatelessWidget {
       backgroundColor: kPrimaryColor,
       body: Center(
           child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
+            height: 100.0,
+            width: 100.0,
             margin: const EdgeInsets.only(bottom: 33.0),
             decoration: const BoxDecoration(
-                image: DecorationImage(image: AssetImage("assets/logo.png"))),
+              image: DecorationImage(
+                image: AssetImage("assets/logo.png"),
+              ),
+            ),
           ),
           Text(
             "AIRPLANE",
